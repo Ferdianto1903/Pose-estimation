@@ -1,0 +1,4 @@
+build/desktop_app/desktop_app.pkg filter=lfs diff=lfs merge=lfs -text
+dist/desktop_app.exe filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
